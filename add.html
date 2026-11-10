@@ -40,7 +40,7 @@
             <form id="expense-form" novalidate>
               <div class="mb-3">
                 <label for="title" class="form-label">Title</label>
-                <input type="text" class="form-control" id="title" name="title" placeholder="Coffee with friends" required>
+                <input type="text" class="form-control" id="title" name="title" maxlength="100" placeholder="Coffee with friends" required>
                 <div class="invalid-feedback error" data-for="title"></div>
               </div>
 
@@ -91,6 +91,8 @@
   <div class="toast-message" id="toast"></div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-BTUqiQhMO3R8N17qIQe5s8Zg/7WYnUjxDuMOSs+RfbIfp85W+bOF3g/P0Ic8TE6dlsSPLzjibVzV3SjteSw+Bg==" crossorigin="anonymous"></script>
+  <script src="scripts/expense-store.js"></script>
   <script src="scripts/add.js"></script>
 </body>
 </html>
